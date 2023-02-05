@@ -3,25 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC4ServicesBook.Common", "MVC4ServicesBook.Common\MVC4ServicesBook.Common.csproj", "{930EF14F-5003-49BB-B998-0F993272BC4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC4ServicesBook.Common", "src\MVC4ServicesBook.Common\MVC4ServicesBook.Common.csproj", "{930EF14F-5003-49BB-B998-0F993272BC4F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC4ServicesBook.Data", "MVC4ServicesBook.Data\MVC4ServicesBook.Data.csproj", "{40B6C1C5-A621-4C10-AA2B-304E5594D426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC4ServicesBook.Data", "src\MVC4ServicesBook.Data\MVC4ServicesBook.Data.csproj", "{40B6C1C5-A621-4C10-AA2B-304E5594D426}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC4ServicesBook.Data.SqlServer", "MVC4ServicesBook.Data.SqlServer\MVC4ServicesBook.Data.SqlServer.csproj", "{10C3555B-FCA4-41F2-9E05-E97E03D71506}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC4ServicesBook.Data.SqlServer", "src\MVC4ServicesBook.Data.SqlServer\MVC4ServicesBook.Data.SqlServer.csproj", "{10C3555B-FCA4-41F2-9E05-E97E03D71506}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC4ServicesBook.Web.Api.Models", "MVC4ServicesBook.Web.Api.Models\MVC4ServicesBook.Web.Api.Models.csproj", "{79F704CB-583D-4491-8153-4DDF2A6471EA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC4ServicesBook.Web.Api.Models", "src\MVC4ServicesBook.Web.Api.Models\MVC4ServicesBook.Web.Api.Models.csproj", "{79F704CB-583D-4491-8153-4DDF2A6471EA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC4ServicesBook.Web.Common", "MVC4ServicesBook.Web.Common\MVC4ServicesBook.Web.Common.csproj", "{E4567587-CCC9-471D-9B12-0A0B2DC13B3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC4ServicesBook.Web.Common", "src\MVC4ServicesBook.Web.Common\MVC4ServicesBook.Web.Common.csproj", "{E4567587-CCC9-471D-9B12-0A0B2DC13B3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC4ServicesBook.Web.Api", "MVC4ServicesBook.Web.Api\MVC4ServicesBook.Web.Api.csproj", "{0B8E8196-9634-4B5F-8C84-80B3EE066D1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC4ServicesBook.Web.Api", "src\MVC4ServicesBook.Web.Api\MVC4ServicesBook.Web.Api.csproj", "{0B8E8196-9634-4B5F-8C84-80B3EE066D1D}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MVC4ServicesDb", "MVC4ServicesDb\MVC4ServicesDb.sqlproj", "{96FEE622-226E-44D9-BC31-00B2DFBB3EE7}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "MVC4ServicesDb", "src\MVC4ServicesDb\MVC4ServicesDb.sqlproj", "{96FEE622-226E-44D9-BC31-00B2DFBB3EE7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{2A8DB15E-0594-4329-A520-39E1BD022ECB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC4ServicesBook.Common.Tests", "MVC4ServicesBook.Common.Tests\MVC4ServicesBook.Common.Tests.csproj", "{9ED093F5-CD31-4EBB-B6B7-EB6938DB0767}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC4ServicesBook.Common.Tests", "src\MVC4ServicesBook.Common.Tests\MVC4ServicesBook.Common.Tests.csproj", "{9ED093F5-CD31-4EBB-B6B7-EB6938DB0767}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC4ServicesBook.Web.Api.Tests", "MVC4ServicesBook.Web.Api.Tests\MVC4ServicesBook.Web.Api.Tests.csproj", "{B5AA83B3-E1CB-4A73-84D2-37FF5116CAA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC4ServicesBook.Web.Api.Tests", "src\MVC4ServicesBook.Web.Api.Tests\MVC4ServicesBook.Web.Api.Tests.csproj", "{B5AA83B3-E1CB-4A73-84D2-37FF5116CAA0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0E915400-F845-4B14-AF63-0F4D4FF2DC32}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{A20386E1-08C9-42A8-B007-E90D0F978664}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -72,6 +76,14 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{930EF14F-5003-49BB-B998-0F993272BC4F} = {0E915400-F845-4B14-AF63-0F4D4FF2DC32}
+		{40B6C1C5-A621-4C10-AA2B-304E5594D426} = {0E915400-F845-4B14-AF63-0F4D4FF2DC32}
+		{10C3555B-FCA4-41F2-9E05-E97E03D71506} = {0E915400-F845-4B14-AF63-0F4D4FF2DC32}
+		{79F704CB-583D-4491-8153-4DDF2A6471EA} = {0E915400-F845-4B14-AF63-0F4D4FF2DC32}
+		{E4567587-CCC9-471D-9B12-0A0B2DC13B3B} = {0E915400-F845-4B14-AF63-0F4D4FF2DC32}
+		{0B8E8196-9634-4B5F-8C84-80B3EE066D1D} = {0E915400-F845-4B14-AF63-0F4D4FF2DC32}
+		{96FEE622-226E-44D9-BC31-00B2DFBB3EE7} = {0E915400-F845-4B14-AF63-0F4D4FF2DC32}
+		{2A8DB15E-0594-4329-A520-39E1BD022ECB} = {0E915400-F845-4B14-AF63-0F4D4FF2DC32}
 		{9ED093F5-CD31-4EBB-B6B7-EB6938DB0767} = {2A8DB15E-0594-4329-A520-39E1BD022ECB}
 		{B5AA83B3-E1CB-4A73-84D2-37FF5116CAA0} = {2A8DB15E-0594-4329-A520-39E1BD022ECB}
 	EndGlobalSection
