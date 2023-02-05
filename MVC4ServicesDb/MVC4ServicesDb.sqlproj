@@ -56,5 +56,69 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="dbo" />
+    <Folder Include="dbo\Scripts" />
+    <Folder Include="dbo\Stored Procedures" />
+    <Folder Include="dbo\Tables" />
+    <Folder Include="dbo\Views" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbo\Scripts\ReferenceData.sql" />
+    <None Include="dbo\Scripts\Script.PostDeployment.sql" />
+    <None Include="dbo\Scripts\TestData.sql" />
+    <None Include="dbo\Stored Procedures\SaveUser.sql" />
+    <None Include="dbo\Stored Procedures\apsnet_AnyDataInTables.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Applications_CreateAppliaction.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_CheckSchemaVersion.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_ChangePasswordQuestionAndAnswer.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_CreateUser.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_FindUsersByEmail.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_FindUsersByName.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_GetAllUsers.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_GetNumberOfUsersOnline.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_GetPassword.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_GetPasswordWithFormat.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_GetUserByEmail.sql" />
+    <None Include="dbo\Stored Procedures\asnet_Membership_GetUserByName.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_ResetPassword.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_SetPassword.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_UnlockUser.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_UpdateUser.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Membership_UpdateUserInfo.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_RegisterSchemaVersion.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Roles_CreateRole.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Roles_DeleteRole.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Roles_GetAllRoles.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Roles_RoleExists.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Setup_RemoveAllRoleMembers.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Setup_RestorePermissions.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_UnRegisterSchemaVersion.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_UsersInRoles_AddUsersToRoles.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_UsersInRoles_FindUsersInRole.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_UsersInRoles_GetRolesForUser.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_UsersInRoles_IsUserInRole.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_UsersInRoles_RemoveUsersFromRoles.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Users_CreateUser.sql" />
+    <None Include="dbo\Stored Procedures\aspnet_Users_DelteUser.sql" />
+    <None Include="dbo\Tables\Category.sql" />
+    <None Include="dbo\Tables\Status.sql" />
+    <None Include="dbo\Tables\Task.sql" />
+    <None Include="dbo\Tables\User.sql" />
+    <None Include="dbo\Tables\aspnet_Membership.sql" />
+    <None Include="dbo\Tables\aspnet_Roles.sql" />
+    <None Include="dbo\Tables\aspnet_SchemaVersions.sql" />
+    <None Include="dbo\Tables\aspnet_Users.sql" />
+    <None Include="dbo\Tables\aspnet_UsersInRoles.sql" />
+    <None Include="dbo\Views\AllUsers.sql" />
+    <None Include="dbo\Views\vw_aspnet_Applications.sql" />
+    <None Include="dbo\Views\vw_aspnet_MembershipUsers.sql" />
+    <None Include="dbo\Views\vw_aspnet_Roles.sql" />
+    <None Include="dbo\Views\vw_asnet_Users.sql" />
+    <None Include="dbo\Views\vw_aspnet_UsersInRoles.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Stored Procedures\aspnet_Membership_GetUserByUserId.sql" />
+    <None Include="dbo\Tables\Priority.sql" />
+    <Build Include="dbo\Tables\aspnet_Applications.sql" />
   </ItemGroup>
 </Project>
