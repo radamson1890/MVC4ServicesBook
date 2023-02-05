@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.18.4" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVC4ServicesBook.Common\MVC4ServicesBook.Common.csproj" />
+    <ProjectReference Include="..\MVC4ServicesBook.Data\MVC4ServicesBook.Data.csproj" />
+    <ProjectReference Include="..\MVC4ServicesBook.Web.Api.Models\MVC4ServicesBook.Web.Api.Models.csproj" />
+    <ProjectReference Include="..\MVC4ServicesBook.Web.Api\MVC4ServicesBook.Web.Api.csproj" />
+    <ProjectReference Include="..\MVC4ServicesBook.Web.Common\MVC4ServicesBook.Web.Common.csproj" />
+  </ItemGroup>
+
+</Project>

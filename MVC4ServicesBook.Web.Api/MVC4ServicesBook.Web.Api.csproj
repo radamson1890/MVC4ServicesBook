@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentNHibernate" Version="3.1.0" />
+    <PackageReference Include="log4net" Version="2.0.15" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.OData" Version="5.7.0" />
+    <PackageReference Include="NHibernate" Version="5.4.0" />
+    <PackageReference Include="Ninject" Version="3.3.6" />
+    <PackageReference Include="Ninject.Web.Common" Version="3.3.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVC4ServicesBook.Common\MVC4ServicesBook.Common.csproj" />
+    <ProjectReference Include="..\MVC4ServicesBook.Data\MVC4ServicesBook.Data.csproj" />
+    <ProjectReference Include="..\MVC4ServicesBook.Web.Api.Models\MVC4ServicesBook.Web.Api.Models.csproj" />
+    <ProjectReference Include="..\MVC4ServicesBook.Web.Common\MVC4ServicesBook.Web.Common.csproj" />
+  </ItemGroup>
+
+</Project>
